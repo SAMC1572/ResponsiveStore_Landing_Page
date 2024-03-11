@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=poppin:ital,wght@@,100,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --app-theme: #fff;
+    --app-primary: green;
+    --app-secondary: black;
+    --app-family: 'Poppins', sans-serif;
+    --app-font-bebas: 'Bebas Neue', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--app-family);
+    background: var(--app-theme);
+}
+
+div{
+     display: block;
+
+}
+h1{
+    font-family: var(--ap  p-font-bebas);
+    font-size: 80px;
+    Color: #363958;
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    color: #363958;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+/*------header------*/
+#header{
+    height: auto;
+    padding: 85px 0 70px 0px;
+    background-color: #f4f5ff;
+}
+#header span{
+    font-weight:700;
+}
+.custom-navbar{
+    background-color:#f1f1f1
+}
+.custom-ul{
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+.custom-li{
+    font-weight: 700;
+    Padding: 0px 25px;
+}
+.custom-logo{
+    width:30%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.custom-highlight{
+    color: #dc3545
+}
+.custom-btn{
+    background-color: #3d4ff3;
+    padding: 10px;
+    border: none;
+    outline: none;
+    
+}
+.custom-btn{
+    background-color: #3d4ff3;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.custom-card{
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+    border:none;
+    background: white;
+}
+.custom-img-width{
+    width: 80px;   
+}
+
+.custom-service-card{
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+    border:none
+}
+.custom-footer{
+    background-color: transparent;
+    border:none;
+}
+.custom-bg{
+    height: 350px;
+    background-color: #f1f1f1;
+}
+
+
+
+.grid__display {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 10px;
+}
+
+
+.custom__container { 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+
+
+@media (min-width: 640px ) {
+.grid__display {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}  
+
+.custom__container { 
+    width: 100%;
+    padding: 0 2rem;
+}
+
+}
+
+
+@media (min-width: 768px ) {
+  
+    .grid__display {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }  
+
+    
+.custom__container { 
+    width: 100%;
+    padding: 0 2rem;
+}
+    }
+
+
+
+    @media (min-width: 1024px ) {
+  
+        .grid__display {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        }  
+
+        
+.custom__container { 
+    max-width: 1024px;
+    padding: 0;
+}
+        }
+    
+    
